@@ -5,6 +5,8 @@ import Puzzle from '@/components/Puzzle';
 import JuegoGato from '@/components/JuegoGato';
 import Ahorcado from '@/components/Ahorcado/ahorcado/src/App';
 import imageData from '@/app/lib/placeholder-images.json';
+import Link from 'next/link';
+import { Newspaper, PawPrint, Sprout, ArrowRight } from 'lucide-react';
 
 export default function HomePage() {
   const images = imageData.carousel.map(img => ({...img, url: img.url.replace(/1200x600/g, "1200/600")}));
@@ -38,13 +40,39 @@ export default function HomePage() {
         </Card>
         <Card className="shadow-lg hover:shadow-xl transition-shadow duration-300">
           <CardHeader>
-            <CardTitle className="font-headline text-3xl text-accent">Explorar mas</CardTitle>
-            <CardDescription className="text-foreground/70">Sumergete profundamente en el reino animal</CardDescription>
+            <CardTitle className="font-headline text-3xl text-accent">Explorar más</CardTitle>
+            <CardDescription className="text-foreground/70">Sumérgete profundamente en el conocimiento del mundo natural</CardDescription>
           </CardHeader>
-          <CardContent>
+          <CardContent className="space-y-4">
             <p className="text-foreground/90">
-              Visita nuestro<a href="/blog" className="text-primary hover:underline">Blog</a> Para fascinantes articulos e historias  del mundo natural, o saber más sobre la <a href="/zoologia" className="text-primary hover:underline">Zoología</a> sección para detallada información sobre el reino animal. Tu aventura comienza aquí.
+              Te invitamos a descubrir nuestras secciones educativas con artículos actualizados, infografías y contenido multimedia interactivo:
             </p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+              <Link 
+                href="/ecologia" 
+                className="flex items-center gap-2 p-3 rounded-lg border border-border bg-card hover:bg-accent/15 transition-all text-primary font-semibold group shadow-sm hover:shadow"
+              >
+                <Sprout className="h-5 w-5 text-accent flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <span className="flex-grow">Ecología</span>
+                <ArrowRight className="h-4 w-4 opacity-70 group-hover:translate-x-1 transition-transform" />
+              </Link>
+              <Link 
+                href="/zoologia" 
+                className="flex items-center gap-2 p-3 rounded-lg border border-border bg-card hover:bg-accent/15 transition-all text-primary font-semibold group shadow-sm hover:shadow"
+              >
+                <PawPrint className="h-5 w-5 text-accent flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <span className="flex-grow">Zoología</span>
+                <ArrowRight className="h-4 w-4 opacity-70 group-hover:translate-x-1 transition-transform" />
+              </Link>
+              <Link 
+                href="/blog" 
+                className="flex items-center gap-2 p-3 rounded-lg border border-border bg-card hover:bg-accent/15 transition-all text-primary font-semibold group shadow-sm hover:shadow"
+              >
+                <Newspaper className="h-5 w-5 text-accent flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <span className="flex-grow">Blog</span>
+                <ArrowRight className="h-4 w-4 opacity-70 group-hover:translate-x-1 transition-transform" />
+              </Link>
+            </div>
           </CardContent>
         </Card>
       </section>
