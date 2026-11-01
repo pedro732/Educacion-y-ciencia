@@ -1,0 +1,41 @@
+
+{
+  "carousel": [
+    { "id": "1", "url": "https://picsum.photos/seed/101/1200/600", "alt": "A colorful bird", "hint": "bird" },
+    { "id": "2", "url": "https://picsum.photos/seed/102/1200/600", "alt": "A dalmatian dog", "hint": "dalmatian dog" },
+    { "id": "3", "url": "https://picsum.photos/seed/103/1200/600", "alt": "A spider", "hint": "spider" },
+    { "id": "4", "url": "https://picsum.photos/seed/104/1200/600", "alt": "A person with a camera", "hint": "person camera" },
+    { "id": "5", "url": "https://picsum.photos/seed/105/1200/600", "alt": "A cat", "hint": "cat" },
+    { "id": "6", "url": "https://picsum.photos/seed/106/1200/600", "alt": "A grasshopper", "hint": "grasshopper" }
+  ],
+  "puzzle": {
+    "imageUrl": "https://picsum.photos/seed/birdpuzzle/600/400",
+    "hint": "colorful bird"
+  },
+  "blog": [
+    { "id": 1, "image": "https://picsum.photos/seed/b1/600/400", "aiHint": "Serengeti migration" },
+    { "id": 2, "image": "https://picsum.photos/seed/b2/600/400", "aiHint": "bat migration" },
+    { "id": 3, "image": "https://picsum.photos/seed/b3/600/400", "aiHint": "elephant behavior" },
+    { "id": 4, "image": "https://picsum.photos/seed/b4/600/400", "aiHint": "chimpanzees bonobos" },
+    { "id": 5, "image": "https://picsum.photos/seed/b5/600/400", "aiHint": "primate masturbation" },
+    { "id": 6, "image": "https://picsum.photos/seed/b6/600/400", "aiHint": "primate kiss" }
+  ],
+  "zoology": [
+    { "id": "1", "imageUrl": "https://picsum.photos/seed/z1/400/400", "aiHint": "Lion portrait" },
+    { "id": "2", "imageUrl": "https://picsum.photos/seed/z2/400/400", "aiHint": "elephant close-up" },
+    { "id": "3", "imageUrl": "https://picsum.photos/seed/z3/400/400", "aiHint": "giraffe neck" }
+  ],
+  "ecology": [
+    { "id": "eco1", "imageUrl": "/images/interconexiones/rana_leopardo.jpg", "aiHint": "leopard frog" },
+    { "id": "eco2", "imageUrl": "https://picsum.photos/seed/eco4/600/400", "aiHint": "water cycle" },
+    { "id": "eco3", "imageUrl": "https://picsum.photos/seed/eco5/600/400", "aiHint": "ecological succession" },
+    { "id": "eco4", "imageUrl": "https://picsum.photos/seed/eco6/600/400", "aiHint": "phosphorus cycle" },
+    { "id": "eco5", "imageUrl": "https://picsum.photos/seed/eco2/600/400", "aiHint": "coral reef" },
+    { "id": "eco6", "imageUrl": "https://picsum.photos/seed/eco3/600/400", "aiHint": "ecological succession" },
+    { "id": "eco7", "imageUrl": "/images/interconexiones/ranas_en_peligro.jpg", "aiHint": "endangered frogs" },
+    { "id": "eco8", "imageUrl": "/images/interconexiones/parasito_anfibio.jpg", "aiHint": "amphibian parasite" },
+    { "id": "eco9", "imageUrl": "/images/interconexiones/resultados_experimentales.jpg", "aiHint": "amphibian experiment" },
+    { "id": "eco10", "imageUrl": "/images/interconexiones/insecticida_parasito.jpg", "aiHint": "pesticide parasite" },
+    { "id": "eco25", "imageUrl": "/images/ecologia/corrientes_marinas.png", "aiHint": "global ocean currents" }
+  ]
+}
